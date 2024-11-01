@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 0px 6px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0dede;
+    padding: 10px;
+}
+.Account{
+    line-height: 30px;
+    text-align: -webkit-center;
+    padding-right: 35px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.par{
+    font-size: 14px;
+}
+.form{
+padding-left: 27px;
+   line-height: 0px;
+}
+.forms{
+    line-height: 38px;
+
+}
+.sig-up{
+    border: 1px solid rgb(120, 116, 116);
+    border-radius: 5px;
+    width: 81%;
+    padding-left: 10px;
+    padding: 5px 5px;
+}
+.btn{
+    line-height: 70px;
+
+}
+#eye{display: inline-block;
+position: relative;
+top: 0px;
+right: 33px;
+cursor: pointer;
+color: #8c8c8c;
+}
+#acc{
+    padding-bottom: 20px;
+}
+.signup{
+    color: rgba(255, 255, 255, 0.802);
+    background-color: #0e64d1;
+    border-radius: 5px;
+    border: 0 #0e64d1;
+    padding: 11px 120px;
+    cursor: pointer;
+}
+.para{
+    font-family: sans-serif;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    position: relative;
+    padding-right: 59px;
+}
+p::before{
+    content: "";
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #9b9b9b;
+  position: absolute;
+  top: 3px;
+  left: 10px;
+
+}
+p::after{
+    content: "";
+    display: block;
+    width: 102px;
+    height: 2px;
+    background-color: #9b9b9b;
+    position: absolute;
+    right: 54px;
+    top: 3px;
+}
+.Login-with-facebook{
+    color: rgba(255, 255, 255, 0.802);
+    background-color: #224e8f;
+    border-radius: 8px;
+    border: 0 #0e64d1;
+    padding: 11px 87px;
+    cursor: pointer;
+}
+.Login-with-google{
+    color: rgba(45, 45, 45, 0.802);
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #99999b;
+    padding: 10px 95px;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
+.fb{
+    height: 22px;
+  width: 35px;
+  display: inline-block;
+  position: relative;
+  left: -302px;
+  top: 6px;
+    
+}
+.google{
+    height: 22px;
+    width: 35px;
+    display: inline-block;
+    position: relative;
+    left: -302px;
+    top: 6px;
+    background-color: #224e8f;
+}
+.account{
+    line-height: 50px; 
+    text-align: center;
+    padding-right: 30px;
+    font-family: sans-serif;
+}
+.Login{
+    color: #0e64d1;
+    padding-right: 2px;
+}
+#log{
+    padding-left: 0px;
+  
+}
+.Facebook{
+    line-height: 20px;
+    padding-left: 18px;
+
+}
+.account{
+    line-height: 14px; 
+    text-align: center;
+    padding-right: 30px;
+}
+.Google{
+    line-height: 73px;
+padding-left: 18px;
+    }
